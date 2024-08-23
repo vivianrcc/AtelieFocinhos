@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Dancing Script', cursive;
-    background:linear-gradient(135deg, #f4b3f4, #420547dc);
+    background:linear-gradient(135deg, #2e1ac3, #90189bdc);
     }
     
 
@@ -49,7 +49,7 @@ header h1 {
     font-size: 20px;
     font-weight: bold;
     color: #080707;
-    background: linear-gradient(135deg, #f3eef3, #b67f81dc);
+    background: linear-gradient(135deg, #efeef3, #b67f81dc);
     border: none;
     border-radius: 60px;
     text-align: center;
