@@ -1,14 +1,10 @@
 /* Importando a fonte Dancing Script */
-@import url('https://fonts.googleapis.com/css2?family=:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Dancing Script', sans-serif;
-    background-image: url('imagens/novo.jpg');
-    background-size: cover; /* Faz a imagem cobrir toda a tela */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-position: center; /* Centraliza a imagem */
+    font-family: 'Dancing Script', cursive;
+    background:linear-gradient(135deg, #f4b3f4, #420547dc);
     }
     
 
@@ -65,7 +61,7 @@ header h1 {
 }
 
 .degrade:hover {
-    background: linear-gradient(135deg, #faf9f8, #4c4c45);
+    background: linear-gradient(135deg, #faf9f8, #571849);
 }
 
 /* Estilo para o texto dos botões */
