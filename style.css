@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Dancing Script', cursive;
-    background:linear-gradient(135deg, #2e1ac3, #90189bdc);
+    background:linear-gradient(135deg, #a13793, #4a2893dc);
     }
     
 
@@ -32,8 +32,8 @@ header img {
 header h1 {
     font-family: 'Dancing Script';
     font-size: 3em;
-    color: #090909;
-    margin-top: 10px;
+    color: #f1e7e7;
+    margin-top: 20px;
 }
 
 /* Estilo dos botões com degrade */
