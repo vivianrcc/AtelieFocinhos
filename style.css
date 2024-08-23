@@ -1,0 +1,117 @@
+/* Importando a fonte Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', sans-serif;
+    background-image: url('imagens/novo.jpg');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    }
+    
+
+
+/* Estilo do container principal */
+.container {
+    width: 80%;
+    max-width:auto;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+/* Estilo do header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-family: 'Dancing Script';
+    font-size: 3em;
+    color: #090909;
+    margin-top: 10px;
+}
+
+/* Estilo dos botões com degrade */
+.degrade {
+    display: flexbox;
+    justify-content: center; 
+    align-items: center; 
+    width: 300px; 
+    height: 60px;
+    width: center;
+    margin: 10px 0;
+    padding: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: #080707;
+    background: linear-gradient(135deg, #f3eef3, #b67f81dc);
+    border: none;
+    border-radius: 60px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    position: relative; 
+
+}
+
+.degrade:hover {
+    background: linear-gradient(135deg, #faf9f8, #4c4c45);
+}
+
+/* Estilo para o texto dos botões */
+.degrade span {
+    flex-grow: 1; /* Faz o texto ocupar o espaço restante */
+    text-align: center; /* Centraliza o texto */
+    
+}
+
+/* Estilo para os ícones dos botões */
+.degrade i {
+    font-size: 40px;
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    flex-shrink: 0; /* Impede que o ícone seja redimensionado */
+    align-self: flex-start; /* Alinha o ícone ao topo da caixa */
+}
+
+/* Centralizando os links dos botões */
+.button-links {
+    width: auto;
+    height: auto;
+    text-align: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilo do rodapé */
+footer {
+    display: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+footer .btn-footer {
+    display:flexbox;
+    padding: 10px 20px;
+    font-size: 10px;
+    color: #fff;
+    background-color: #c914a2; 
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+footer .btn-footer:hover {
+    background-color: #b91ea1;
+}
