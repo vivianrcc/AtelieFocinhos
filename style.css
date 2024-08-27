@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Dancing Script', cursive;
-    background:linear-gradient(135deg, #a13793, #4a2893dc);
+    background:linear-gradient(135deg, #f4baed, #be4cc6dc);
     }
     
 
@@ -49,7 +49,7 @@ header h1 {
     font-size: 20px;
     font-weight: bold;
     color: #080707;
-    background: linear-gradient(135deg, #efeef3, #b67f81dc);
+    background: linear-gradient(135deg, #efeef3, #e3bebfdc);
     border: none;
     border-radius: 60px;
     text-align: center;
@@ -61,7 +61,7 @@ header h1 {
 }
 
 .degrade:hover {
-    background: linear-gradient(135deg, #faf9f8, #571849);
+    background: linear-gradient(135deg, #faf9f8, #d176b3);
 }
 
 /* Estilo para o texto dos botões */
@@ -103,11 +103,11 @@ footer .btn-footer {
     padding: 10px 20px;
     font-size: 10px;
     color: #fff;
-    background-color: #c914a2; 
+    background-color: #da9ecd; 
     border-radius: 8px;
     text-decoration: none;
 }
 
 footer .btn-footer:hover {
-    background-color: #b91ea1;
+    background-color: #d38dc8;
 }
